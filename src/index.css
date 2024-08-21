@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.cuerpo{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/943/010/original/mountains-landscape-background-for-landing-page-vector.jpg);
+}
+.usuarios{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.lyr{
+    font-size: 60px;
+}
+.correoycontra input{
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.registra{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+@media (max-width:400px) {
+    .registra{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .registrarse{
+        border: 1px solid black;
+    }
+}
